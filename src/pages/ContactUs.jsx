@@ -63,7 +63,7 @@ const ContactUs = () => {
       return; // Stop the submission
     }
 
-    formData.append('access_key', '83b15728-9570-40c5-b57d-aa80f6b3308b'); // Replace with your actual access key
+    formData.append('access_key', '3dda1668-be34-4962-a546-36d30083d93d'); // Replace with your actual access key
 
     try {
       const response = await fetch('https://api.web3forms.com/submit', {
